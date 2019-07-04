@@ -1,0 +1,147 @@
+
+
+<html>
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {
+  background:url("dark.jpg") no-repeat;
+  background-size:cover;
+}
+.navbar{
+background-color: #1a0000;
+}
+.jumbotron{
+background:url("movies.jpg") no-repeat;
+}
+.other-color{
+    background:url("drink.jpg") no-repeat ;
+  }
+pre{
+ background:none;
+ border:none;
+ 
+}
+</style>
+</head>
+<body >
+
+<nav class="navbar navbar-inverse ">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img class="img-fluid img-rounded" style="margin-top:-10px" width="40px" height="40px" src="ha.jpg"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active" ><a href="#">Home</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">Rating</a></li>
+      <li><a href="#">Star Cast</a></li>
+      <li><a href="#">Gallery</a></li>
+
+    </ul>
+    <form class="navbar-form navbar-left ">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="container-fluid">
+
+ <div id="myCarousel" class="carousel slide" style="width:900px " data-ride="carousel ">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+   
+    <div class="carousel-inner" style="margin-top:-20px; margin-left:-0px;margin-right:-20px;">
+	
+      <div class="item active">
+      <a href="#"><img src="aa.jpg" alt="Burger" style="width:900px ;height:500px"></a>
+        <div class="carousel-caption">
+          <h3>Movie Tickets</h3>
+          <p>Buy 2 at rs.500</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <a href="#"><img src="oo.jpg " alt="flims" style="width:900px;height:500px"></a>
+        <div class="carousel-caption">
+          <h3 class="text-dark">Movies</h3>
+          <p>ALL COMBO AT A GREAT PRICE</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <a href="#"><img src="kk.jpg" alt="movies" style="width:900px;height:500px"></a>
+        <div class="carousel-caption">
+          <h3>FUN</h3>
+          <p>Welcome to movies44u.com</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="card pull-right" style="width:400px;margin-top:-500px">
+   <a href="#"><img class="card-img-top" src="oo.jpg" alt="Card image" style="width:400px;height=200px"></a>
+  <a href="#"><img class="card-img-top" src="yy.jpg" alt="Card image" style="width:400px;height=200px"></a>
+ <a href="#"><img class="card-img-top" src="vv.jpg" alt="Card image" style="width:400px;height=200px"></a>
+ 
+ 
+     </div>
+<div class="jumbotron text-center" style="margin-top:5px">
+	<button type="button" class="btn btn-warning btn-lg active "><strong>LOGIN</strong></button>
+	<br><br><div class="progress">
+          <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+         
+          </div>
+        </div>
+
+ 	<a href="staff.html"><img  src="qq.jpg" alt="Chef "  style="width:300px; height:300px; border-radius:50%;margin-left:-1000px"></a>
+	<a href="#"><center><img src="ww.jpg" alt="admin" style="width:300px; height:300px; border-radius:50%;margin-top:-300px"></center></a>
+	<a href="#"><img src="ee.jpg" alt="user" style="width:300px;height:300px; border-radius:50% ;margin-top:-300px" align="right" ></a>
+	<br><br><div class="progress">
+          <div class="progress-bar  progress-bar-warning progress-bar-striped active" role="progressbar"
+          aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+    
+          </div>
+        </div>
+
+		
+</div>
+<div class="jumbotron other-color" style="margin-top:-25px">
+<img class="img-fluid img-circle" style="margin-top:-10px" width="100px" height="100px" src="ha.jpg">
+<pre style="margin-top:-150px" class="text-success"><span class="inner-pre" style="font-size: 14px; font-weight:bold;font">
+
+</span></pre> 
+
+  </div>
+
+
+</div>
+
+</body>
+</html>
